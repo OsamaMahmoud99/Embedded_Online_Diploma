@@ -1,0 +1,6 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Q3.ReverseString.exe,org.eclipse.launchbar.core.descriptorType.default\:Q2.PrintAlphabets.exe,org.eclipse.launchbar.core.descriptorType.default\:Q1.HandlePointers.exe,org.eclipse.launchbar.core.descriptorType.default\:Q4.ReverseArray.exe,org.eclipse.launchbar.core.descriptorType.default\:Q5.ptrtoarray.exe
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:Q1.HandlePointers.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Q1.HandlePointers.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

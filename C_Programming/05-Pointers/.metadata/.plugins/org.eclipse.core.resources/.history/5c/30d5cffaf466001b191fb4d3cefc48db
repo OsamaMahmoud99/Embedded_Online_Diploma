@@ -1,0 +1,23 @@
+/*
+ * Q2.c
+ *
+ *  Created on: Feb 4, 2021
+ *      Author: Osama Mahmoud
+ */
+
+#include <stdion.h>
+
+int main()
+{
+	char* P;
+	*p = 65;
+
+	for(int i=0; i<26; ++i)
+	{
+		printf("%c ",*(p+i));
+	}
+
+	return 0;
+}
+
+

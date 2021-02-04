@@ -1,0 +1,16 @@
+/*
+ * Q2.c
+ *
+ *  Created on: Feb 4, 2021
+ *      Author: Osama Mahmoud
+ */
+
+#include <stdion.h>
+
+int main()
+{
+
+	return 0;
+}
+
+

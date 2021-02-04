@@ -1,0 +1,354 @@
+16:18:16 **** Incremental Build of configuration Debug for project Q1.HandlePointers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q1.o "..\\Q1.c" 
+..\Q1.c: In function 'main':
+..\Q1.c:14:9: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'unsigned int *' [-Wformat=]
+  printf("Address of m : %x\n ",&m);
+         ^
+..\Q1.c:17:12: warning: pointer targets in initialization differ in signedness [-Wpointer-sign]
+  int *ab = &m;
+            ^
+..\Q1.c:18:9: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Address of pointer ab : %x\n ",ab);
+         ^
+..\Q1.c:22:9: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Address of pointer ab : %x\n ",ab);
+         ^
+..\Q1.c:26:9: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'unsigned int *' [-Wformat=]
+  printf("Address of m : %x\n ",&m);
+         ^
+gcc -o Q1.HandlePointers.exe Q1.o 
+16:18:53 **** Incremental Build of configuration Debug for project Q1.HandlePointers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q1.o "..\\Q1.c" 
+..\Q1.c: In function 'main':
+..\Q1.c:14:9: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Address of m : %x\n ",&m);
+         ^
+..\Q1.c:18:9: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Address of pointer ab : %x\n ",ab);
+         ^
+..\Q1.c:22:9: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Address of pointer ab : %x\n ",ab);
+         ^
+..\Q1.c:26:9: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Address of m : %x\n ",&m);
+         ^
+gcc -o Q1.HandlePointers.exe Q1.o 
+Info: Nothing to build for Q1.HandlePointers
+16:20:24 **** Incremental Build of configuration Debug for project Q1.HandlePointers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q1.o "..\\Q1.c" 
+..\Q1.c: In function 'main':
+..\Q1.c:14:9: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Address of m : %x\n",&m);
+         ^
+..\Q1.c:26:9: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'int *' [-Wformat=]
+  printf("Address of m : %x\n",&m);
+         ^
+gcc -o Q1.HandlePointers.exe Q1.o 
+16:20:47 **** Incremental Build of configuration Debug for project Q1.HandlePointers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q1.o "..\\Q1.c" 
+gcc -o Q1.HandlePointers.exe Q1.o 
+Info: Nothing to build for Q1.HandlePointers
+16:26:20 **** Rebuild of configuration Debug for project Q2.PrintAlphabets ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q2.o "..\\Q2.c" 
+..\Q2.c:8:20: fatal error: stdion.h: No such file or directory
+compilation terminated.
+16:26:37 **** Incremental Build of configuration Debug for project Q2.PrintAlphabets ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q2.o "..\\Q2.c" 
+..\Q2.c: In function 'main':
+..\Q2.c:13:3: error: 'p' undeclared (first use in this function)
+  *p = 65;
+   ^
+..\Q2.c:13:3: note: each undeclared identifier is reported only once for each function it appears in
+..\Q2.c:12:8: warning: unused variable 'P' [-Wunused-variable]
+  char* P;
+        ^
+16:26:57 **** Incremental Build of configuration Debug for project Q2.PrintAlphabets ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q2.o "..\\Q2.c" 
+..\Q2.c: In function 'main':
+..\Q2.c:13:5: warning: 'p' is used uninitialized in this function [-Wuninitialized]
+  *p = 65;
+     ^
+gcc -o Q2.PrintAlphabets.exe Q2.o 
+16:27:19 **** Incremental Build of configuration Debug for project Q2.PrintAlphabets ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q2.o "..\\Q2.c" 
+gcc -o Q2.PrintAlphabets.exe Q2.o 
+Info: Nothing to build for Q2.PrintAlphabets
+Info: Nothing to build for Q2.PrintAlphabets
+16:28:10 **** Incremental Build of configuration Debug for project Q2.PrintAlphabets ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q2.o "..\\Q2.c" 
+gcc -o Q2.PrintAlphabets.exe Q2.o 
+Info: Nothing to build for Q2.PrintAlphabets
+Info: Nothing to build for Q2.PrintAlphabets
+16:28:58 **** Incremental Build of configuration Debug for project Q2.PrintAlphabets ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q2.o "..\\Q2.c" 
+gcc -o Q2.PrintAlphabets.exe Q2.o 
+16:29:47 **** Incremental Build of configuration Debug for project Q2.PrintAlphabets ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q2.o "..\\Q2.c" 
+gcc -o Q2.PrintAlphabets.exe Q2.o 
+16:38:28 **** Incremental Build of configuration Debug for project Q2.PrintAlphabets ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q2.o "..\\Q2.c" 
+gcc -o Q2.PrintAlphabets.exe Q2.o 
+Info: Nothing to build for Q2.PrintAlphabets
+16:38:45 **** Incremental Build of configuration Debug for project Q2.PrintAlphabets ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q2.o "..\\Q2.c" 
+gcc -o Q2.PrintAlphabets.exe Q2.o 
+Info: Nothing to build for Q2.PrintAlphabets
+16:58:04 **** Rebuild of configuration Debug for project Q3.ReverseString ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q3.o "..\\Q3.c" 
+gcc -o Q3.ReverseString.exe Q3.o 
+Info: Nothing to build for Q3.ReverseString
+Info: Nothing to build for Q3.ReverseString
+16:59:11 **** Incremental Build of configuration Debug for project Q3.ReverseString ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q3.o "..\\Q3.c" 
+gcc -o Q3.ReverseString.exe Q3.o 
+17:00:27 **** Incremental Build of configuration Debug for project Q3.ReverseString ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q3.o "..\\Q3.c" 
+gcc -o Q3.ReverseString.exe Q3.o 
+Info: Nothing to build for Q3.ReverseString
+Info: Nothing to build for Q2.PrintAlphabets
+Info: Nothing to build for Q2.PrintAlphabets
+Info: Nothing to build for Q1.HandlePointers
+Info: Nothing to build for Q1.HandlePointers
+17:40:37 **** Rebuild of configuration Debug for project Q4.ReverseArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q4.o "..\\Q4.c" 
+gcc -o Q4.ReverseArray.exe Q4.o 
+Info: Nothing to build for Q4.ReverseArray
+17:41:00 **** Incremental Build of configuration Debug for project Q4.ReverseArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q4.o "..\\Q4.c" 
+..\Q4.c: In function 'main':
+..\Q4.c:13:2: warning: statement with no effect [-Wunused-value]
+  fflush
+  ^
+..\Q4.c:14:2: error: expected ';' before 'scanf'
+  scanf("%d",&n);
+  ^
+17:41:09 **** Incremental Build of configuration Debug for project Q4.ReverseArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q4.o "..\\Q4.c" 
+gcc -o Q4.ReverseArray.exe Q4.o 
+C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/ld.exe: cannot open output file Q4.ReverseArray.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:41:17 **** Incremental Build of configuration Debug for project Q4.ReverseArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q4.o "..\\Q4.c" 
+gcc -o Q4.ReverseArray.exe Q4.o 
+Info: Nothing to build for Q4.ReverseArray
+Info: Nothing to build for Q4.ReverseArray
+17:41:39 **** Incremental Build of configuration Debug for project Q4.ReverseArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q4.o "..\\Q4.c" 
+gcc -o Q4.ReverseArray.exe Q4.o 
+C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/ld.exe: cannot open output file Q4.ReverseArray.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:41:47 **** Incremental Build of configuration Debug for project Q4.ReverseArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q4.o "..\\Q4.c" 
+gcc -o Q4.ReverseArray.exe Q4.o 
+Info: Nothing to build for Q4.ReverseArray
+17:42:11 **** Incremental Build of configuration Debug for project Q4.ReverseArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q4.o "..\\Q4.c" 
+gcc -o Q4.ReverseArray.exe Q4.o 
+C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/ld.exe: cannot open output file Q4.ReverseArray.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:42:17 **** Incremental Build of configuration Debug for project Q4.ReverseArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q4.o "..\\Q4.c" 
+gcc -o Q4.ReverseArray.exe Q4.o 
+Info: Nothing to build for Q4.ReverseArray
+17:44:01 **** Incremental Build of configuration Debug for project Q4.ReverseArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q4.o "..\\Q4.c" 
+gcc -o Q4.ReverseArray.exe Q4.o 
+C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/ld.exe: cannot open output file Q4.ReverseArray.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:44:07 **** Incremental Build of configuration Debug for project Q4.ReverseArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q4.o "..\\Q4.c" 
+gcc -o Q4.ReverseArray.exe Q4.o 
+17:44:10 **** Incremental Build of configuration Debug for project Q4.ReverseArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q4.o "..\\Q4.c" 
+gcc -o Q4.ReverseArray.exe Q4.o 
+17:44:55 **** Incremental Build of configuration Debug for project Q4.ReverseArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q4.o "..\\Q4.c" 
+gcc -o Q4.ReverseArray.exe Q4.o 
+C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/ld.exe: cannot open output file Q4.ReverseArray.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:45:01 **** Incremental Build of configuration Debug for project Q4.ReverseArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q4.o "..\\Q4.c" 
+gcc -o Q4.ReverseArray.exe Q4.o 
+Info: Nothing to build for Q4.ReverseArray
+17:45:32 **** Incremental Build of configuration Debug for project Q4.ReverseArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q4.o "..\\Q4.c" 
+gcc -o Q4.ReverseArray.exe Q4.o 
+Info: Nothing to build for Q4.ReverseArray
+17:45:52 **** Incremental Build of configuration Debug for project Q4.ReverseArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q4.o "..\\Q4.c" 
+gcc -o Q4.ReverseArray.exe Q4.o 
+C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/../../../../mingw32/bin/ld.exe: cannot open output file Q4.ReverseArray.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:45:58 **** Incremental Build of configuration Debug for project Q4.ReverseArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q4.o "..\\Q4.c" 
+gcc -o Q4.ReverseArray.exe Q4.o 
+Info: Nothing to build for Q4.ReverseArray
+17:46:59 **** Incremental Build of configuration Debug for project Q4.ReverseArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q4.o "..\\Q4.c" 
+gcc -o Q4.ReverseArray.exe Q4.o 
+Info: Nothing to build for Q4.ReverseArray
+18:05:16 **** Incremental Build of configuration Debug for project Q4.ReverseArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q4.o "..\\Q4.c" 
+gcc -o Q4.ReverseArray.exe Q4.o 
+Info: Nothing to build for Q4.ReverseArray
+18:06:19 **** Incremental Build of configuration Debug for project Q4.ReverseArray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q4.o "..\\Q4.c" 
+gcc -o Q4.ReverseArray.exe Q4.o 
+Info: Nothing to build for Q4.ReverseArray
+18:16:53 **** Rebuild of configuration Debug for project Q5.ptrtoarray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q5.o "..\\Q5.c" 
+..\Q5.c: In function 'main':
+..\Q5.c:17:25: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct Employee *X[2]={"Alex" , 1002};
+                         ^
+..\Q5.c:17:25: note: (near initialization for 'X[0]')
+..\Q5.c:17:34: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  struct Employee *X[2]={"Alex" , 1002};
+                                  ^
+..\Q5.c:17:34: note: (near initialization for 'X[1]')
+..\Q5.c:18:13: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  int *ptr = &X;
+             ^
+..\Q5.c:20:35: error: request for member 'name' in something not a structure or union
+  printf("Employee Name: %s \n",ptr->name);
+                                   ^
+..\Q5.c:21:28: error: request for member 'ID' in something not a structure or union
+  printf("Employee ID: ",ptr-> ID);
+                            ^
+18:17:28 **** Incremental Build of configuration Debug for project Q5.ptrtoarray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q5.o "..\\Q5.c" 
+..\Q5.c: In function 'main':
+..\Q5.c:17:25: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct Employee *X[2]={"Alex" , 1002};
+                         ^
+..\Q5.c:17:25: note: (near initialization for 'X[0]')
+..\Q5.c:17:34: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  struct Employee *X[2]={"Alex" , 1002};
+                                  ^
+..\Q5.c:17:34: note: (near initialization for 'X[1]')
+..\Q5.c:18:13: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  int *ptr = &X;
+             ^
+..\Q5.c:20:35: error: request for member 'X' in something not a structure or union
+  printf("Employee Name: %s \n",ptr->X[0]);
+                                   ^
+..\Q5.c:21:28: error: request for member 'X' in something not a structure or union
+  printf("Employee ID: ",ptr-> X[1]);
+                            ^
+18:17:40 **** Incremental Build of configuration Debug for project Q5.ptrtoarray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q5.o "..\\Q5.c" 
+..\Q5.c: In function 'main':
+..\Q5.c:17:25: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  struct Employee *X[2]={"Alex" , 1002};
+                         ^
+..\Q5.c:17:25: note: (near initialization for 'X[0]')
+..\Q5.c:17:34: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+  struct Employee *X[2]={"Alex" , 1002};
+                                  ^
+..\Q5.c:17:34: note: (near initialization for 'X[1]')
+..\Q5.c:18:13: warning: initialization from incompatible pointer type [-Wincompatible-pointer-types]
+  int *ptr = &X;
+             ^
+..\Q5.c:20:35: error: request for member 'X' in something not a structure or union
+  printf("Employee Name: %s \n",ptr->X[0]);
+                                   ^
+..\Q5.c:21:30: error: request for member 'X' in something not a structure or union
+  printf("Employee ID: %d",ptr-> X[1]);
+                              ^
+18:28:30 **** Incremental Build of configuration Debug for project Q5.ptrtoarray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q5.o "..\\Q5.c" 
+..\Q5.c: In function 'main':
+..\Q5.c:17:21: error: 'm' undeclared (first use in this function)
+  struct Employee X =m{"Alex" , 1002};
+                     ^
+..\Q5.c:17:21: note: each undeclared identifier is reported only once for each function it appears in
+..\Q5.c:17:22: error: expected ',' or ';' before '{' token
+  struct Employee X =m{"Alex" , 1002};
+                      ^
+..\Q5.c:19:30: error: expected '=', ',', ';', 'asm' or '__attribute__' before ')' token
+  struct Employee (*(*ptr)[1])) = &arr;
+                              ^
+..\Q5.c:19:30: error: expected statement before ')' token
+..\Q5.c:19:32: error: expected expression before '=' token
+  struct Employee (*(*ptr)[1])) = &arr;
+                                ^
+..\Q5.c:21:33: error: 'ptr' undeclared (first use in this function)
+  printf("Employee Name : %s \n",ptr -> name);
+                                 ^
+18:28:54 **** Incremental Build of configuration Debug for project Q5.ptrtoarray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q5.o "..\\Q5.c" 
+..\Q5.c: In function 'main':
+..\Q5.c:19:30: error: expected '=', ',', ';', 'asm' or '__attribute__' before ')' token
+  struct Employee (*(*ptr)[1])) = &arr;
+                              ^
+..\Q5.c:19:30: error: expected statement before ')' token
+..\Q5.c:19:32: error: expected expression before '=' token
+  struct Employee (*(*ptr)[1])) = &arr;
+                                ^
+..\Q5.c:21:33: error: 'ptr' undeclared (first use in this function)
+  printf("Employee Name : %s \n",ptr -> name);
+                                 ^
+..\Q5.c:21:33: note: each undeclared identifier is reported only once for each function it appears in
+18:29:20 **** Incremental Build of configuration Debug for project Q5.ptrtoarray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q5.o "..\\Q5.c" 
+..\Q5.c: In function 'main':
+..\Q5.c:21:37: error: request for member 'name' in something not a structure or union
+  printf("Employee Name : %s \n",ptr -> name);
+                                     ^
+..\Q5.c:22:32: error: request for member 'ID' in something not a structure or union
+  printf("Employee ID : %d",ptr -> ID);
+                                ^
+18:31:21 **** Incremental Build of configuration Debug for project Q5.ptrtoarray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q5.o "..\\Q5.c" 
+gcc -o Q5.ptrtoarray.exe Q5.o 
+Info: Nothing to build for Q5.ptrtoarray
+18:32:03 **** Incremental Build of configuration Debug for project Q5.ptrtoarray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q5.o "..\\Q5.c" 
+gcc -o Q5.ptrtoarray.exe Q5.o 
+18:32:38 **** Incremental Build of configuration Debug for project Q5.ptrtoarray ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o Q5.o "..\\Q5.c" 
+gcc -o Q5.ptrtoarray.exe Q5.o 
