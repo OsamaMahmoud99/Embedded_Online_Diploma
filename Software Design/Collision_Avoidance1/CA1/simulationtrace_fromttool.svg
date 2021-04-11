@@ -1,0 +1,430 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+<line  x1="87" y1="50" x2="162" y2="50" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="50" x2="125" y2="65" stroke="#333333" stroke-width="1" fill="none"/>
+<text  x="117" y="48" style="font-size:12; font-family:Dialog.plain; fill=#333333">CA</text>
+<text  x="10" y="73" style="font-size:12; font-family:Dialog.plain; fill=#333333">@0</text>
+<line  x1="125" y1="65" x2="125" y2="75" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="104" y="75" width="43" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="104" y="75" width="43" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="106" y="91" style="font-size:12; font-family:Dialog.plain; fill=#333333">waiting</text>
+<line  x1="125" y1="95" x2="125" y2="105" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="105" x2="125" y2="115" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="85" y="115" width="80" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="85" y="115" width="80" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="87" y="131" style="font-size:12; font-family:Dialog.plain; fill=#333333">Distance = 54</text>
+<line  x1="125" y1="135" x2="125" y2="145" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="145" x2="125" y2="155" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="155" width="61" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="95" y="155" width="61" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="171" style="font-size:12; font-family:Dialog.plain; fill=#333333">choice__1</text>
+<line  x1="125" y1="175" x2="125" y2="185" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="92" y="185" width="67" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="92" y="185" width="67" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="94" y="201" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">Speed = 30</text>
+<line  x1="125" y1="205" x2="125" y2="215" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="215" x2="125" y2="225" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="105" y="225" width="40" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="105" y="225" width="40" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="107" y="241" style="font-size:12; font-family:Dialog.plain; fill=#333333">driving</text>
+<line  x1="125" y1="245" x2="125" y2="255" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="255" x2="125" y2="265" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="85" y="265" width="80" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="85" y="265" width="80" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="87" y="281" style="font-size:12; font-family:Dialog.plain; fill=#333333">Distance = 47</text>
+<line  x1="125" y1="285" x2="125" y2="295" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="295" x2="125" y2="305" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="305" width="61" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="95" y="305" width="61" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="321" style="font-size:12; font-family:Dialog.plain; fill=#333333">choice__0</text>
+<line  x1="125" y1="325" x2="125" y2="335" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="335" width="60" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="95" y="335" width="60" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="351" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">Speed = 0</text>
+<line  x1="125" y1="355" x2="125" y2="365" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="365" x2="125" y2="375" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="104" y="375" width="43" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="104" y="375" width="43" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="106" y="391" style="font-size:12; font-family:Dialog.plain; fill=#333333">waiting</text>
+<line  x1="125" y1="395" x2="125" y2="405" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="405" x2="125" y2="415" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="85" y="415" width="80" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="85" y="415" width="80" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="87" y="431" style="font-size:12; font-family:Dialog.plain; fill=#333333">Distance = 53</text>
+<line  x1="125" y1="435" x2="125" y2="445" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="445" x2="125" y2="455" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="455" width="61" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="95" y="455" width="61" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="471" style="font-size:12; font-family:Dialog.plain; fill=#333333">choice__1</text>
+<line  x1="125" y1="475" x2="125" y2="485" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="92" y="485" width="67" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="92" y="485" width="67" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="94" y="501" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">Speed = 30</text>
+<line  x1="125" y1="505" x2="125" y2="515" stroke="#333333" stroke-width="1" fill="none"/>
+<ellipse  cx="159" cy="485" rx="3" ry="3" fill="#ffb469"/>
+<line  x1="159" y1="485" x2="165" y2="479" stroke="#ffb469" stroke-width="1" fill="none"/>
+<line  x1="165" y1="479" x2="171" y2="479" stroke="#ffb469" stroke-width="1" fill="none"/>
+<text  x="172" y="479" style="font-size:12; font-family:Dialog.plain; fill=#ffb469">19</text>
+<line  x1="125" y1="515" x2="125" y2="525" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="105" y="525" width="40" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="105" y="525" width="40" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="107" y="541" style="font-size:12; font-family:Dialog.plain; fill=#333333">driving</text>
+<line  x1="125" y1="545" x2="125" y2="555" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="555" x2="125" y2="565" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="85" y="565" width="80" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="85" y="565" width="80" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="87" y="581" style="font-size:12; font-family:Dialog.plain; fill=#333333">Distance = 48</text>
+<line  x1="125" y1="585" x2="125" y2="595" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="595" x2="125" y2="605" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="605" width="61" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="95" y="605" width="61" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="621" style="font-size:12; font-family:Dialog.plain; fill=#333333">choice__0</text>
+<line  x1="125" y1="625" x2="125" y2="635" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="635" width="60" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="95" y="635" width="60" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="651" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">Speed = 0</text>
+<line  x1="125" y1="655" x2="125" y2="665" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="665" x2="125" y2="675" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="104" y="675" width="43" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="104" y="675" width="43" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="106" y="691" style="font-size:12; font-family:Dialog.plain; fill=#333333">waiting</text>
+<line  x1="125" y1="695" x2="125" y2="705" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="705" x2="125" y2="715" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="85" y="715" width="80" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="85" y="715" width="80" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="87" y="731" style="font-size:12; font-family:Dialog.plain; fill=#333333">Distance = 50</text>
+<line  x1="125" y1="735" x2="125" y2="745" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="745" x2="125" y2="755" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="755" width="61" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="95" y="755" width="61" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="771" style="font-size:12; font-family:Dialog.plain; fill=#333333">choice__1</text>
+<line  x1="125" y1="775" x2="125" y2="785" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="785" width="60" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="95" y="785" width="60" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="801" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">Speed = 0</text>
+<line  x1="125" y1="805" x2="125" y2="815" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="815" x2="125" y2="825" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="104" y="825" width="43" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="104" y="825" width="43" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="106" y="841" style="font-size:12; font-family:Dialog.plain; fill=#333333">waiting</text>
+<line  x1="125" y1="845" x2="125" y2="855" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="855" x2="125" y2="865" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="85" y="865" width="80" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="85" y="865" width="80" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="87" y="881" style="font-size:12; font-family:Dialog.plain; fill=#333333">Distance = 50</text>
+<line  x1="125" y1="885" x2="125" y2="895" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="895" x2="125" y2="905" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="905" width="61" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="95" y="905" width="61" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="921" style="font-size:12; font-family:Dialog.plain; fill=#333333">choice__1</text>
+<line  x1="125" y1="925" x2="125" y2="935" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="935" width="60" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="95" y="935" width="60" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="951" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">Speed = 0</text>
+<line  x1="125" y1="955" x2="125" y2="965" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="965" x2="125" y2="975" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="104" y="975" width="43" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="104" y="975" width="43" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="106" y="991" style="font-size:12; font-family:Dialog.plain; fill=#333333">waiting</text>
+<line  x1="125" y1="995" x2="125" y2="1005" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1005" x2="125" y2="1015" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="85" y="1015" width="80" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="85" y="1015" width="80" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="87" y="1031" style="font-size:12; font-family:Dialog.plain; fill=#333333">Distance = 54</text>
+<line  x1="125" y1="1035" x2="125" y2="1045" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1045" x2="125" y2="1055" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="1055" width="61" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="95" y="1055" width="61" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="1071" style="font-size:12; font-family:Dialog.plain; fill=#333333">choice__1</text>
+<line  x1="125" y1="1075" x2="125" y2="1085" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="92" y="1085" width="67" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="92" y="1085" width="67" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="94" y="1101" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">Speed = 30</text>
+<line  x1="125" y1="1105" x2="125" y2="1115" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1115" x2="125" y2="1125" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="105" y="1125" width="40" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="105" y="1125" width="40" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="107" y="1141" style="font-size:12; font-family:Dialog.plain; fill=#333333">driving</text>
+<line  x1="125" y1="1145" x2="125" y2="1155" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1155" x2="125" y2="1165" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="85" y="1165" width="80" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="85" y="1165" width="80" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="87" y="1181" style="font-size:12; font-family:Dialog.plain; fill=#333333">Distance = 49</text>
+<line  x1="125" y1="1185" x2="125" y2="1195" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1195" x2="125" y2="1205" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="1205" width="61" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="95" y="1205" width="61" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="1221" style="font-size:12; font-family:Dialog.plain; fill=#333333">choice__0</text>
+<line  x1="125" y1="1225" x2="125" y2="1235" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="1235" width="60" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="95" y="1235" width="60" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="1251" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">Speed = 0</text>
+<line  x1="125" y1="1255" x2="125" y2="1265" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1265" x2="125" y2="1275" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="104" y="1275" width="43" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="104" y="1275" width="43" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="106" y="1291" style="font-size:12; font-family:Dialog.plain; fill=#333333">waiting</text>
+<line  x1="125" y1="1295" x2="125" y2="1305" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1305" x2="125" y2="1315" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="85" y="1315" width="80" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="85" y="1315" width="80" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="87" y="1331" style="font-size:12; font-family:Dialog.plain; fill=#333333">Distance = 54</text>
+<line  x1="125" y1="1335" x2="125" y2="1345" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1345" x2="125" y2="1355" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="1355" width="61" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="95" y="1355" width="61" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="1371" style="font-size:12; font-family:Dialog.plain; fill=#333333">choice__1</text>
+<line  x1="125" y1="1375" x2="125" y2="1385" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="92" y="1385" width="67" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="92" y="1385" width="67" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="94" y="1401" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">Speed = 30</text>
+<line  x1="125" y1="1405" x2="125" y2="1415" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1415" x2="125" y2="1425" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="105" y="1425" width="40" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="105" y="1425" width="40" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="107" y="1441" style="font-size:12; font-family:Dialog.plain; fill=#333333">driving</text>
+<line  x1="125" y1="1445" x2="125" y2="1455" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1455" x2="125" y2="1465" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="85" y="1465" width="80" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="85" y="1465" width="80" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="87" y="1481" style="font-size:12; font-family:Dialog.plain; fill=#333333">Distance = 55</text>
+<line  x1="125" y1="1485" x2="125" y2="1495" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1495" x2="125" y2="1505" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="1505" width="61" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="95" y="1505" width="61" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="1521" style="font-size:12; font-family:Dialog.plain; fill=#333333">choice__0</text>
+<line  x1="125" y1="1525" x2="125" y2="1535" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="92" y="1535" width="67" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="92" y="1535" width="67" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="94" y="1551" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">Speed = 30</text>
+<line  x1="125" y1="1555" x2="125" y2="1565" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1565" x2="125" y2="1575" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="105" y="1575" width="40" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="105" y="1575" width="40" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="107" y="1591" style="font-size:12; font-family:Dialog.plain; fill=#333333">driving</text>
+<line  x1="125" y1="1595" x2="125" y2="1605" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1605" x2="125" y2="1615" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="85" y="1615" width="80" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="85" y="1615" width="80" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="87" y="1631" style="font-size:12; font-family:Dialog.plain; fill=#333333">Distance = 55</text>
+<line  x1="125" y1="1635" x2="125" y2="1645" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1645" x2="125" y2="1655" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="1655" width="61" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="95" y="1655" width="61" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="1671" style="font-size:12; font-family:Dialog.plain; fill=#333333">choice__0</text>
+<line  x1="125" y1="1675" x2="125" y2="1685" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="92" y="1685" width="67" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="92" y="1685" width="67" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="94" y="1701" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">Speed = 30</text>
+<line  x1="125" y1="1705" x2="125" y2="1715" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1715" x2="125" y2="1725" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="105" y="1725" width="40" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="105" y="1725" width="40" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="107" y="1741" style="font-size:12; font-family:Dialog.plain; fill=#333333">driving</text>
+<line  x1="125" y1="1745" x2="125" y2="1755" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1755" x2="125" y2="1765" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="85" y="1765" width="80" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="85" y="1765" width="80" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="87" y="1781" style="font-size:12; font-family:Dialog.plain; fill=#333333">Distance = 54</text>
+<line  x1="125" y1="1785" x2="125" y2="1795" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1795" x2="125" y2="1805" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="1805" width="61" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="95" y="1805" width="61" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="1821" style="font-size:12; font-family:Dialog.plain; fill=#333333">choice__0</text>
+<line  x1="125" y1="1825" x2="125" y2="1835" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="92" y="1835" width="67" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="92" y="1835" width="67" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="94" y="1851" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">Speed = 30</text>
+<line  x1="125" y1="1855" x2="125" y2="1865" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1865" x2="125" y2="1875" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="105" y="1875" width="40" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="105" y="1875" width="40" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="107" y="1891" style="font-size:12; font-family:Dialog.plain; fill=#333333">driving</text>
+<line  x1="125" y1="1895" x2="125" y2="1905" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1905" x2="125" y2="1915" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="85" y="1915" width="80" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="85" y="1915" width="80" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="87" y="1931" style="font-size:12; font-family:Dialog.plain; fill=#333333">Distance = 55</text>
+<line  x1="125" y1="1935" x2="125" y2="1945" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="1945" x2="125" y2="1955" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="1955" width="61" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="95" y="1955" width="61" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="1971" style="font-size:12; font-family:Dialog.plain; fill=#333333">choice__0</text>
+<line  x1="125" y1="1975" x2="125" y2="1985" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="92" y="1985" width="67" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="92" y="1985" width="67" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="94" y="2001" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">Speed = 30</text>
+<line  x1="125" y1="2005" x2="125" y2="2015" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="2015" x2="125" y2="2025" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="105" y="2025" width="40" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="105" y="2025" width="40" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="107" y="2041" style="font-size:12; font-family:Dialog.plain; fill=#333333">driving</text>
+<line  x1="125" y1="2045" x2="125" y2="2055" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="2055" x2="125" y2="2065" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="85" y="2065" width="80" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="85" y="2065" width="80" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="87" y="2081" style="font-size:12; font-family:Dialog.plain; fill=#333333">Distance = 45</text>
+<line  x1="125" y1="2085" x2="125" y2="2095" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="2095" x2="125" y2="2105" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="2105" width="61" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="95" y="2105" width="61" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="2121" style="font-size:12; font-family:Dialog.plain; fill=#333333">choice__0</text>
+<line  x1="125" y1="2125" x2="125" y2="2135" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="2135" width="60" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="95" y="2135" width="60" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="2151" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">Speed = 0</text>
+<line  x1="125" y1="2155" x2="125" y2="2165" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="2165" x2="125" y2="2175" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="104" y="2175" width="43" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="104" y="2175" width="43" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="106" y="2191" style="font-size:12; font-family:Dialog.plain; fill=#333333">waiting</text>
+<line  x1="125" y1="2195" x2="125" y2="2205" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="2205" x2="125" y2="2215" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="85" y="2215" width="80" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="85" y="2215" width="80" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="87" y="2231" style="font-size:12; font-family:Dialog.plain; fill=#333333">Distance = 50</text>
+<line  x1="125" y1="2235" x2="125" y2="2245" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="2245" x2="125" y2="2255" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="2255" width="61" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="95" y="2255" width="61" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="2271" style="font-size:12; font-family:Dialog.plain; fill=#333333">choice__1</text>
+<line  x1="125" y1="2275" x2="125" y2="2285" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="2285" width="60" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="95" y="2285" width="60" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="2301" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">Speed = 0</text>
+<line  x1="125" y1="2305" x2="125" y2="2315" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="2315" x2="125" y2="2325" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="104" y="2325" width="43" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="104" y="2325" width="43" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="106" y="2341" style="font-size:12; font-family:Dialog.plain; fill=#333333">waiting</text>
+<line  x1="125" y1="2345" x2="125" y2="2355" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="2355" x2="125" y2="2365" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="85" y="2365" width="80" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="85" y="2365" width="80" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="87" y="2381" style="font-size:12; font-family:Dialog.plain; fill=#333333">Distance = 47</text>
+<line  x1="125" y1="2385" x2="125" y2="2395" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="2395" x2="125" y2="2405" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="2405" width="61" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="95" y="2405" width="61" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="2421" style="font-size:12; font-family:Dialog.plain; fill=#333333">choice__1</text>
+<line  x1="125" y1="2425" x2="125" y2="2435" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="2435" width="60" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="95" y="2435" width="60" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="2451" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">Speed = 0</text>
+<line  x1="125" y1="2455" x2="125" y2="2465" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="2465" x2="125" y2="2475" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="104" y="2475" width="43" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="104" y="2475" width="43" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="106" y="2491" style="font-size:12; font-family:Dialog.plain; fill=#333333">waiting</text>
+<line  x1="125" y1="2495" x2="125" y2="2505" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="2505" x2="125" y2="2515" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="85" y="2515" width="80" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="85" y="2515" width="80" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="87" y="2531" style="font-size:12; font-family:Dialog.plain; fill=#333333">Distance = 45</text>
+<line  x1="125" y1="2535" x2="125" y2="2545" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="2545" x2="125" y2="2555" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="2555" width="61" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="95" y="2555" width="61" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="2571" style="font-size:12; font-family:Dialog.plain; fill=#333333">choice__1</text>
+<line  x1="125" y1="2575" x2="125" y2="2585" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="2585" width="60" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="95" y="2585" width="60" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="2601" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">Speed = 0</text>
+<line  x1="125" y1="2605" x2="125" y2="2615" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="2615" x2="125" y2="2625" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="104" y="2625" width="43" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="104" y="2625" width="43" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="106" y="2641" style="font-size:12; font-family:Dialog.plain; fill=#333333">waiting</text>
+<line  x1="125" y1="2645" x2="125" y2="2655" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="2655" x2="125" y2="2665" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="85" y="2665" width="80" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="85" y="2665" width="80" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="87" y="2681" style="font-size:12; font-family:Dialog.plain; fill=#333333">Distance = 54</text>
+<line  x1="125" y1="2685" x2="125" y2="2695" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="2695" x2="125" y2="2705" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="2705" width="61" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="95" y="2705" width="61" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="2721" style="font-size:12; font-family:Dialog.plain; fill=#333333">choice__1</text>
+<line  x1="125" y1="2725" x2="125" y2="2735" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="92" y="2735" width="67" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="92" y="2735" width="67" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="94" y="2751" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">Speed = 30</text>
+<line  x1="125" y1="2755" x2="125" y2="2765" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="2765" x2="125" y2="2775" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="105" y="2775" width="40" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="105" y="2775" width="40" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="107" y="2791" style="font-size:12; font-family:Dialog.plain; fill=#333333">driving</text>
+<line  x1="125" y1="2795" x2="125" y2="2805" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="2805" x2="125" y2="2815" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="85" y="2815" width="80" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="85" y="2815" width="80" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="87" y="2831" style="font-size:12; font-family:Dialog.plain; fill=#333333">Distance = 55</text>
+<line  x1="125" y1="2835" x2="125" y2="2845" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="2845" x2="125" y2="2855" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="2855" width="61" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="95" y="2855" width="61" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="2871" style="font-size:12; font-family:Dialog.plain; fill=#333333">choice__0</text>
+<line  x1="125" y1="2875" x2="125" y2="2885" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="92" y="2885" width="67" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="92" y="2885" width="67" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="94" y="2901" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">Speed = 30</text>
+<line  x1="125" y1="2905" x2="125" y2="2915" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="2915" x2="125" y2="2925" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="105" y="2925" width="40" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="105" y="2925" width="40" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="107" y="2941" style="font-size:12; font-family:Dialog.plain; fill=#333333">driving</text>
+<line  x1="125" y1="2945" x2="125" y2="2955" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="2955" x2="125" y2="2965" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="85" y="2965" width="80" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="85" y="2965" width="80" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="87" y="2981" style="font-size:12; font-family:Dialog.plain; fill=#333333">Distance = 54</text>
+<line  x1="125" y1="2985" x2="125" y2="2995" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="2995" x2="125" y2="3005" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="3005" width="61" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="95" y="3005" width="61" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="3021" style="font-size:12; font-family:Dialog.plain; fill=#333333">choice__0</text>
+<line  x1="125" y1="3025" x2="125" y2="3035" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="92" y="3035" width="67" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="92" y="3035" width="67" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="94" y="3051" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">Speed = 30</text>
+<line  x1="125" y1="3055" x2="125" y2="3065" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="3065" x2="125" y2="3075" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="105" y="3075" width="40" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="105" y="3075" width="40" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="107" y="3091" style="font-size:12; font-family:Dialog.plain; fill=#333333">driving</text>
+<line  x1="125" y1="3095" x2="125" y2="3105" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="3105" x2="125" y2="3115" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="85" y="3115" width="80" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="85" y="3115" width="80" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="87" y="3131" style="font-size:12; font-family:Dialog.plain; fill=#333333">Distance = 51</text>
+<line  x1="125" y1="3135" x2="125" y2="3145" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="3145" x2="125" y2="3155" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="3155" width="61" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="95" y="3155" width="61" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="3171" style="font-size:12; font-family:Dialog.plain; fill=#333333">choice__0</text>
+<line  x1="125" y1="3175" x2="125" y2="3185" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="92" y="3185" width="67" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="92" y="3185" width="67" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="94" y="3201" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">Speed = 30</text>
+<line  x1="125" y1="3205" x2="125" y2="3215" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="3215" x2="125" y2="3225" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="105" y="3225" width="40" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="105" y="3225" width="40" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="107" y="3241" style="font-size:12; font-family:Dialog.plain; fill=#333333">driving</text>
+<line  x1="125" y1="3245" x2="125" y2="3255" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="3255" x2="125" y2="3265" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="85" y="3265" width="80" height="20" rx="5" ry="5" fill="#ffffff"/>
+<rect  x="85" y="3265" width="80" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="87" y="3281" style="font-size:12; font-family:Dialog.plain; fill=#333333">Distance = 55</text>
+<line  x1="125" y1="3285" x2="125" y2="3295" stroke="#333333" stroke-width="1" fill="none"/>
+<line  x1="125" y1="3295" x2="125" y2="3305" stroke="#333333" stroke-width="1" fill="none"/>
+<rect  x="95" y="3305" width="61" height="20" rx="5" ry="5" fill="#c1daf1"/>
+<rect  x="95" y="3305" width="61" height="20" rx="5" ry="5" fill="none" stroke="#333333" stroke-width="1"/>
+<text  x="97" y="3321" style="font-size:12; font-family:Dialog.plain; fill=#333333">choice__0</text>
+<line  x1="125" y1="3325" x2="125" y2="3335" stroke="#333333" stroke-width="1" fill="none"/>
+<text  x="10" y="499" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">@0</text>
+<text  x="751" y="499" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">@0</text>
+<text  x="117" y="489" style="font-size:12; font-family:Dialog.plain; fill=#7710f3">CA</text>
+<text  x="96" y="503" style="font-size:12; font-family:Dialog.italic; font-style=italic; fill=#7710f3">choice__1</text>
+</svg>
