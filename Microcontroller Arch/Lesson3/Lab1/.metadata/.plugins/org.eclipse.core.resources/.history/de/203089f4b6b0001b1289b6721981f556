@@ -1,0 +1,82 @@
+/**
+ ******************************************************************************
+ * @file           : main.c
+ * @author         : Osama Mahmoud
+ * @brief          : Clock Configuration
+ ******************************************************************************
+ * @attention
+ *
+ * <h2><center>&copy; Copyright (c) 2021 STMicroelectronics.
+ * All rights reserved.</center></h2>
+ *
+ * This software component is licensed by ST under BSD 3-Clause license,
+ * the "License"; You may not use this file except in compliance with the
+ * License. You may obtain a copy of the License at:
+ *                        opensource.org/licenses/BSD-3-Clause
+ *
+ ******************************************************************************
+ */
+
+#if !defined(__SOFT_FP__) && defined(__ARM_FP)
+#warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
+#endif
+
+/*Configure Board to run with the
+Following rates:
+ APB1 Bus frequency 4MHZ
+ APB2 Bus frequency 2MHZ
+ AHB frequency 8 MHZ
+ SysClk 8 MHZ
+ Use only internal HSI_RC*/
+
+/* Configure Board to run with the
+Following rates:
+ APB1 Bus frequency 16MHZ
+ APB2 Bus frequency 8MHZ
+ AHB frequency 32 MHZ
+ SysClk 32 MHZ
+ Use only internal HSI_RC*/
+
+
+typedef volatile unsigned int vuint32_t;
+#include<stdint.h>
+#include<stdlib.h>
+#include<stdio.h>
+
+
+#define RCC_BASE       0x40021000
+#define RCC_CFGR       *(vuint32_t *)(RCC_BASE + 0x04)
+
+void Clock_Init(){
+
+	/*Bits 10:8 PPRE1: APB low-speed prescaler (APB1)
+		Set and cleared by software to control the division factor of the APB low-speed clock
+		(PCLK1).
+		Warning: the software has to set correctly these bits to not exceed 36 MHz on this domain.
+		0xx: HCLK not divided
+		100: HCLK divided by 2
+		101: HCLK divided by 4
+		110: HCLK divided by 8
+		111: HCLK divided by 16*/
+	RCC_CFGR |= (0b100) << 8;
+
+	/*Bits 13:11 PPRE2: APB high-speed prescaler (APB2)
+		Set and cleared by software to control the division factor of the APB high-speed clock
+		(PCLK2).
+		0xx: HCLK not divided
+		100: HCLK divided by 2
+		101: HCLK divided by 4
+		110: HCLK divided by 8
+		111: HCLK divided by 16*/
+	RCC_CFGR |= (0b101) << 11;
+
+}
+int main(void)
+{
+	Clock_Init();
+
+	while(1)
+	{
+
+	}
+}

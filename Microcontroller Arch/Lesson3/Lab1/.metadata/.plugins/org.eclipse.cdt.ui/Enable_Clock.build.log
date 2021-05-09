@@ -1,0 +1,20 @@
+13:32:56 **** Incremental Build of configuration Debug for project Enable_Clock ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DSTM32 -DSTM32F1 -DSTM32F103C6Tx -DDEBUG -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Enable_Clock.elf" @"objects.list"   -mcpu=cortex-m3 -T"F:\OSAMAA\Embedded System\Learn In Depth\UNIT 6 MCU Fundamentals\Lesson 3\Lab1\Enable_Clock\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Enable_Clock.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Enable_Clock.elf
+ 
+arm-none-eabi-objdump -h -S  Enable_Clock.elf  > "Enable_Clock.list"
+arm-none-eabi-objcopy  -O binary  Enable_Clock.elf  "Enable_Clock.bin"
+arm-none-eabi-size   Enable_Clock.elf 
+   text	   data	    bss	    dec	    hex	filename
+    652	      8	   1568	   2228	    8b4	Enable_Clock.elf
+Finished building: default.size.stdout
+ 
+Finished building: Enable_Clock.bin
+Finished building: Enable_Clock.list
+ 
+ 
+
+13:32:57 Build Finished. 0 errors, 0 warnings. (took 996ms)
+
