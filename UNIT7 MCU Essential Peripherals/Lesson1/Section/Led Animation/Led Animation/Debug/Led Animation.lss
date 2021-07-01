@@ -1,0 +1,187 @@
+
+Led Animation.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         000000ee  00000000  00000000  00000054  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000000  00800060  00800060  00000142  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .comment      00000030  00000000  00000000  00000142  2**0
+                  CONTENTS, READONLY
+  3 .note.gnu.avr.deviceinfo 0000003c  00000000  00000000  00000174  2**2
+                  CONTENTS, READONLY
+  4 .debug_aranges 00000020  00000000  00000000  000001b0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  5 .debug_info   00000682  00000000  00000000  000001d0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_abbrev 0000059d  00000000  00000000  00000852  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_line   00000285  00000000  00000000  00000def  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_frame  00000024  00000000  00000000  00001074  2**2
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_str    00000353  00000000  00000000  00001098  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_loc    0000010d  00000000  00000000  000013eb  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_ranges 00000028  00000000  00000000  000014f8  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	0c 94 2a 00 	jmp	0x54	; 0x54 <__ctors_end>
+   4:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+   8:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+   c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  10:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  14:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  18:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  1c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  20:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  24:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  28:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  2c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  30:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  34:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  38:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  3c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  40:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  44:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  48:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  4c:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+  50:	0c 94 34 00 	jmp	0x68	; 0x68 <__bad_interrupt>
+
+00000054 <__ctors_end>:
+  54:	11 24       	eor	r1, r1
+  56:	1f be       	out	0x3f, r1	; 63
+  58:	cf e5       	ldi	r28, 0x5F	; 95
+  5a:	d8 e0       	ldi	r29, 0x08	; 8
+  5c:	de bf       	out	0x3e, r29	; 62
+  5e:	cd bf       	out	0x3d, r28	; 61
+  60:	0e 94 36 00 	call	0x6c	; 0x6c <main>
+  64:	0c 94 75 00 	jmp	0xea	; 0xea <_exit>
+
+00000068 <__bad_interrupt>:
+  68:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+0000006c <main>:
+#define GPIO_DDRD    (*(volatile unsigned char *)0x31)
+
+int main(void)
+{   
+	/* config DDRD for output mode */
+    GPIO_DDRD = 0xff;
+  6c:	8f ef       	ldi	r24, 0xFF	; 255
+  6e:	81 bb       	out	0x11, r24	; 17
+	GPIO_PORTD = 0x00;
+  70:	12 ba       	out	0x12, r1	; 18
+    while (1) 
+    {
+		
+		for (int i=0; i<=255; i=i*2+1)
+  72:	70 e0       	ldi	r23, 0x00	; 0
+  74:	60 e0       	ldi	r22, 0x00	; 0
+  76:	ff ef       	ldi	r31, 0xFF	; 255
+  78:	e0 e0       	ldi	r30, 0x00	; 0
+/* Base Address of DDRD , POTTD */
+#define GPIO_PORTD   (*(volatile unsigned char *)0x32)
+#define GPIO_DDRD    (*(volatile unsigned char *)0x31)
+
+int main(void)
+{   
+  7a:	29 e0       	ldi	r18, 0x09	; 9
+  7c:	30 e0       	ldi	r19, 0x00	; 0
+    GPIO_DDRD = 0xff;
+	GPIO_PORTD = 0x00;
+    while (1) 
+    {
+		
+		for (int i=0; i<=255; i=i*2+1)
+  7e:	87 2f       	mov	r24, r23
+  80:	96 2f       	mov	r25, r22
+		{
+			GPIO_PORTD = i;
+  82:	82 bb       	out	0x12, r24	; 18
+	#else
+		//round up by default
+		__ticks_dc = (uint32_t)(ceil(fabs(__tmp)));
+	#endif
+
+	__builtin_avr_delay_cycles(__ticks_dc);
+  84:	4f e3       	ldi	r20, 0x3F	; 63
+  86:	5d e0       	ldi	r21, 0x0D	; 13
+  88:	a3 e0       	ldi	r26, 0x03	; 3
+  8a:	41 50       	subi	r20, 0x01	; 1
+  8c:	50 40       	sbci	r21, 0x00	; 0
+  8e:	a0 40       	sbci	r26, 0x00	; 0
+  90:	e1 f7       	brne	.-8      	; 0x8a <main+0x1e>
+  92:	00 c0       	rjmp	.+0      	; 0x94 <main+0x28>
+  94:	00 00       	nop
+    GPIO_DDRD = 0xff;
+	GPIO_PORTD = 0x00;
+    while (1) 
+    {
+		
+		for (int i=0; i<=255; i=i*2+1)
+  96:	88 0f       	add	r24, r24
+  98:	99 1f       	adc	r25, r25
+  9a:	01 96       	adiw	r24, 0x01	; 1
+  9c:	21 50       	subi	r18, 0x01	; 1
+  9e:	31 09       	sbc	r19, r1
+  a0:	81 f7       	brne	.-32     	; 0x82 <main+0x16>
+  a2:	48 e0       	ldi	r20, 0x08	; 8
+  a4:	50 e0       	ldi	r21, 0x00	; 0
+  a6:	2f 2f       	mov	r18, r31
+  a8:	3e 2f       	mov	r19, r30
+			GPIO_PORTD = i;
+			_delay_ms(1000);
+		}
+		for (int i=255; i>=1; i=i/2)
+		{
+			GPIO_PORTD = i;
+  aa:	22 bb       	out	0x12, r18	; 18
+  ac:	8f e3       	ldi	r24, 0x3F	; 63
+  ae:	9d e0       	ldi	r25, 0x0D	; 13
+  b0:	a3 e0       	ldi	r26, 0x03	; 3
+  b2:	81 50       	subi	r24, 0x01	; 1
+  b4:	90 40       	sbci	r25, 0x00	; 0
+  b6:	a0 40       	sbci	r26, 0x00	; 0
+  b8:	e1 f7       	brne	.-8      	; 0xb2 <main+0x46>
+  ba:	00 c0       	rjmp	.+0      	; 0xbc <main+0x50>
+  bc:	00 00       	nop
+		for (int i=0; i<=255; i=i*2+1)
+		{
+			GPIO_PORTD = i;
+			_delay_ms(1000);
+		}
+		for (int i=255; i>=1; i=i/2)
+  be:	82 2f       	mov	r24, r18
+  c0:	93 2f       	mov	r25, r19
+  c2:	99 23       	and	r25, r25
+  c4:	0c f4       	brge	.+2      	; 0xc8 <main+0x5c>
+  c6:	01 96       	adiw	r24, 0x01	; 1
+  c8:	95 95       	asr	r25
+  ca:	87 95       	ror	r24
+  cc:	28 2f       	mov	r18, r24
+  ce:	39 2f       	mov	r19, r25
+  d0:	41 50       	subi	r20, 0x01	; 1
+  d2:	51 09       	sbc	r21, r1
+  d4:	51 f7       	brne	.-44     	; 0xaa <main+0x3e>
+  d6:	2f e3       	ldi	r18, 0x3F	; 63
+  d8:	4d e0       	ldi	r20, 0x0D	; 13
+  da:	53 e0       	ldi	r21, 0x03	; 3
+  dc:	21 50       	subi	r18, 0x01	; 1
+  de:	40 40       	sbci	r20, 0x00	; 0
+  e0:	50 40       	sbci	r21, 0x00	; 0
+  e2:	e1 f7       	brne	.-8      	; 0xdc <main+0x70>
+  e4:	00 c0       	rjmp	.+0      	; 0xe6 <main+0x7a>
+  e6:	00 00       	nop
+  e8:	c8 cf       	rjmp	.-112    	; 0x7a <main+0xe>
+
+000000ea <_exit>:
+  ea:	f8 94       	cli
+
+000000ec <__stop_program>:
+  ec:	ff cf       	rjmp	.-2      	; 0xec <__stop_program>
