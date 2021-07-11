@@ -1,0 +1,7 @@
+GPIO.c:10:6:GPIO_SetPinDirection	24	static
+GPIO.c:52:6:GPIO_SetPinValue	24	static
+GPIO.c:84:6:GPIO_TogPinValue	16	static
+GPIO.c:101:6:GPIO_GetPinValue	24	static
+GPIO.c:121:6:GPIO_SetPortDirection	24	static
+GPIO.c:189:6:GPIO_SetPortValue	24	static
+GPIO.c:257:6:GPIO_GetPortValue	24	static
