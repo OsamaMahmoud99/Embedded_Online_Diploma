@@ -2,7 +2,7 @@
  * EXTI.h
  *
  *  Created on: Jul 18, 2021
- *      Author: asss5
+ *      Author: Osama Mahmoud
  */
 
 #ifndef MCAL_EXTI_EXTI_H_
