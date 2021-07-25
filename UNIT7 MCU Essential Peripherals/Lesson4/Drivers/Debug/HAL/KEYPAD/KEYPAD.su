@@ -1,3 +1,0 @@
-KEYPAD.c:32:6:delay_ms	24	static
-KEYPAD.c:39:6:KEYPAD_Init	8	static
-KEYPAD.c:57:4:KEYPAD_GetChar	16	static
