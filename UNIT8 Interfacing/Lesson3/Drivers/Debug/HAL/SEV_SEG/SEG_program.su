@@ -1,0 +1,2 @@
+SEG_program.c:9:6:SEG_voidInit	16	static
+SEG_program.c:20:6:SEG_voidDisplayNumber	16	static
