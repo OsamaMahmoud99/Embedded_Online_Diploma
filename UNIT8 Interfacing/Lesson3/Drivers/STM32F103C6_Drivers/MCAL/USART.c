@@ -145,7 +145,7 @@ void USART_RecieveData(USART_t* USARTx , u16* Buffer , Polling_Mechanism Polling
 		}
 	}
 	else{
-		if(Global_USART_Config->WordLength == USART_Parity_NONE){
+		if(Global_USART_Config->Parity == USART_Parity_NONE){
 			//no parity so all bits is considered data
 			*((u16*)Buffer) = (USARTx->DR & (u8)0xFF);
 		}
