@@ -1,0 +1,8 @@
+USART.c:26:6:USART_Init	32	static
+USART.c:91:6:USART_DeInit	16	static
+USART.c:107:6:USART_SendData	24	static
+USART.c:130:6:USART_RecieveData	24	static
+USART.c:159:6:USART_GPIO_SetPins	16	static
+USART.c:183:6:USART1_IRQHandler	16	static
+USART.c:212:6:USART2_IRQHandler	16	static
+USART.c:241:6:USART3_IRQHandler	16	static
