@@ -1,0 +1,40 @@
+﻿/*@!Encoding:65001*/
+includes
+{
+  
+}
+
+variables
+{
+  msTimer t1;
+  int AccTime = 1000;
+  message ACC_CMD_msg acc_msg;
+  int Acc_signal = 0;
+  
+}
+
+on start{
+  write("Eng. osama : case_study_5");
+  setTimer(t1 , AccTime);
+}
+
+on message Speed_Val_msg{
+  
+  write("ECU1 received from ECU2");
+}
+on timer t1{
+  write("Eng. osama : case_study_5");
+  
+  
+  /*Acc_signal ^= 1;
+  acc_msg.ACC_ON.phys = Acc_signal;
+  output(acc_msg);*/
+  
+  /* check button each one second */
+  Acc_signal = @sysvar::ACC_system_VAL;
+  acc_msg.ACC_ON.phys = Acc_signal;
+  output(acc_msg);
+  
+  setTimer(t1 , AccTime);
+  
+}

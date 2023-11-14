@@ -1,0 +1,47 @@
+﻿/*@!Encoding:65001*/
+includes
+{
+  
+}
+
+variables
+{
+  
+  int speedval = 0;
+  message Speed_Val_msg speed_signal;
+  int acc = 0;
+}
+
+on start{
+  
+ write("ECU2 start");
+  
+}
+
+on message ACC_CMD_msg{
+  
+  acc = @sysvar::ACC_system_VAL;
+  
+  if(acc == 1){
+    
+    if(speedval == 255){
+      speedval = 255;
+    }
+    else{
+      speedval++;
+    }
+    
+  }
+  else if(acc == 0){
+      if(speedval == 0){
+      speedval = 0;
+    }
+    else{
+      speedval--;
+    }
+  }
+  speed_signal.Speed.phys = speedval;
+  output(speed_signal);
+  
+ 
+}
